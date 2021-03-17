@@ -31,13 +31,6 @@ class CityListTest {
 
     @Test
     void travisTest() {
-        CityList cityList = mockCityList();
-
-        assertEquals(1, cityList.countCities());
-
-        cityList.add(new City("Calgary", "Alberta"));
-
-        assertEquals(2, cityList.countCities());
-        assertTrue(cityList.hasCity(new City("Calgary", "Alberta")));
+        assertTrue(false);
     }
 }
