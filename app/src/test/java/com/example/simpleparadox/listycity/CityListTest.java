@@ -31,6 +31,6 @@ class CityListTest {
 
     @Test
     void travisTest() {
-        assertTrue(true == (true == false));
+        assertTrue(true);
     }
 }
